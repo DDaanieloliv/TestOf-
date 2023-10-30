@@ -11,7 +11,7 @@ export default function App() {
     {/* <Image  style={styles.profileImage}
     source={require('assets/perfil.png.jpg')}/> */}
     
-    {/* :Jsx */}
+    {/* :Jsx: */}
 
     <View style={styles.section}>
       <Text style={styles.heading}>Informações Pessoais</Text>
