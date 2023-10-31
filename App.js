@@ -8,7 +8,7 @@ export default function App() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
     
-    <Image  style={styles.profileImage} source={require('./assets/perfil.png')}/> 
+    <Image  style={styles.profileImage} source={require('./assets/linkedin1.png')}/> 
     
     {/* :Jsx: */}
 
@@ -48,12 +48,19 @@ const styles = StyleSheet.create({
   },
   section: {
     marginBottom: 16,
-    marginTop: 90 ,
+    marginTop: 60 ,
+    alignItems: 'center', 
   },
   heading: {
     fontSize: 20,
     fontWeight: 'bold',
     marginBottom: 8,
+    justifyContent: 'center',
+    textAlign: 'center', 
+  },
+  profileImage: {
+    marginTop: 30,
+    marginLeft: 158,
   },
 });
 
