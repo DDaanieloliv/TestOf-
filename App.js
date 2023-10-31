@@ -8,8 +8,7 @@ export default function App() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
     
-    {/* <Image  style={styles.profileImage}
-    source={require('assets/perfil.png.jpg')}/> */}
+    <Image  style={styles.profileImage} source={require('./assets/perfil.png')}/> 
     
     {/* :Jsx: */}
 
